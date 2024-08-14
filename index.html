@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rahul Kumar's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm Rahul Kumar</h1>
+      <p>Creative UI Developer</p>
+      <button id="scrollToAbout">Learn More</button>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a Creative UI Developer with 8 years of experience...</p>
+  </section>
+
+  <section id="Qual">
+    <h2>Highest Qualification</h2>
+    <p>Master of Computer Application(MCA)</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill">HTML5</div>
+      <div class="skill">CSS3</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">jQuery</div>
+	  <div class="skill">GIT/SVN</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-gallery">
+      <div class="project-item">
+        <h3>WMS(Work flow Management)</h3>
+        <p>Developed a user friendly Dashboard for monitoring the Productivity and Quality.</p>
+		<p><b>Role:</b> Created UI with the help of  JS, JQuey, HTML, CSS</p>
+      </div>
+      <div class="project-item">
+        <h3>Alef:</h3>
+        <p>Utilize Jquery to redesign the UI functionality and apps running on mobiles, tablets and other touchscreen devices.</p>
+		<p><b>Role:</b> Created CSS and Jquey Animation.</p>
+</div>
+	<div class="project-item">
+	<h3>Text to Speech App</h3>
+	<p>Convert to the Content/Text into .mp3 audio with multiple voices.</p>
+	<p><b>Role:</b> Used Text-to-Speech API with Google Voices.</p>
+</div>
+<div class="project-item">
+	<h3>Accessibility Enhancement: Pearson and PW</h3>
+	<p>Work on projects to improve the accessibility of e-Learning content, making it inclusive for users with disabilities.</p>
+	<p><b>Role:</b> Used WCAG Guideline, Color contrast, NVDA and AXE Dev Tools.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+	<h4>Mob: 9560634296</h4>
+	<h4>Email: <a href="mailto:rahul.kumar.shekhavat@gmail.com">rahul.kumar.shekhavat@gmail.com</a></h4>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&#169; 2024 Rahul Kumar</p>
+    <p>Place: Noida</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
